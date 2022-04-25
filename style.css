@@ -100,9 +100,62 @@ h2{
     margin-bottom: 57px;
 }
 
-@media screen {
-    
+@media screen and (min-width:640px) {
+
+    .button-container {
+        display: flex;
+        margin: 30px auto 0 auto;
+    }
+
+    .button {
+        margin-bottom: 0px;
+    }
+
+    .dobrodruzo {
+        margin-right: 25px;
+    }
+
+    .pohoda {
+        margin-left:20px;
+    }
+
+    h2 {
+        margin-top: 60px;
+    }
+
+    .radek {
+        display: block;
+        width: 230px;
+        height: 172px;
+        margin: 0px 10px 0 10px;
+        padding: 0;
+    }
+
+    .obsahikony {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+    }
+    p {
+        margin:0;
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    .sluzbyDelegat {
+        margin-bottom: 60px;
+
+    }
+
+    .ikona {
+        padding-top: 40px;
+        padding-left: 0;
+    }
 }
+    
+
 
 
 
