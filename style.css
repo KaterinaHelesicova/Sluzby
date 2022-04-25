@@ -155,7 +155,108 @@ h2{
     }
 }
     
+@media screen and (min-width: 1100px){
+    .top,
+    .sluzbyCK,
+    .sluzbyDelegat {
+        max-width: 1040px;
+        margin: 0px auto;
+    }
 
+    .top {
+        display: flex;
+        margin-top: 60px;
+        margin-bottom: 80px;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .sluzbyCK {
+        display:flex;
+        margin-bottom: 80px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .sluzbyDelegat {
+        display:flex;
+        margin-bottom: 60px;
+        margin-top: 80px;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .uvod {
+        margin-right: 60px;
+        text-align: left;
+    }
+
+    p {
+        margin-left: 0;
+    }
+
+    .button-container {
+        margin: 30px 0 0 0;
+    }
+
+    .button {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .dobrodruzo {
+        margin-right: 20px;
+    }
+
+    .pohoda {
+        margin-left: 20px;
+    }
+
+    .hlavicka {
+        width: 425px;
+        height: 354px;
+    }
+    .happy-traveler {
+        margin: 0;
+        width: 426px;
+        height: 354px;
+    }
+
+    .specializace{
+        text-align: left;
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .radek {
+        width: 168px;
+        height: 191px;
+        margin: 0 20px 0 0;
+    }
+
+    .CKobsah {
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    p {
+        margin: 0px;
+    }
+
+    h2 {
+        padding-left: 0px;
+        margin-top: 0px;
+        text-align: left;
+    }
+
+    .karavan {
+        margin-right: 0px;
+    }
+}
 
 
 
